@@ -192,12 +192,6 @@ DIRECTOR ver 1.0 retains script understanding, visual development, and single-fr
 
 The repository root contains tutorials and work; `director/` is the installable Skill. `scripts/` provides static checks and packaging. The ZIP excludes the showcase gallery.
 
-<a id="community"></a>
-## Build DIRECTOR Together
-
-Thanks to everyone who tested, shared, and supported this project. The [complete Special Thanks list and community illustration](docs/community.md) remain available.
-
-
 <a id="license"></a>
 ## Attribution and Licensing
 

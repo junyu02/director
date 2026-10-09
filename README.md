@@ -184,12 +184,6 @@ DIRECTOR ver 1.0 保留剧本理解、视觉开发与单帧选择等能力；旧
 
 仓库根目录保存教程与作品；`director/` 是可安装 Skill 本体。`scripts/` 提供静态校验与打包脚本，ZIP 不携带作品图库。
 
-<a id="community"></a>
-## 一起维护 DIRECTOR
-
-感谢参与测试、反馈、分享和支持项目的每一位朋友。[完整 Special Thanks 名单与社区插画](docs/community.md)持续保留。
-
-
 <a id="license"></a>
 ## 使用与授权
 

@@ -15,7 +15,7 @@ SKILL = ROOT / "director"
 REF = SKILL / "references"
 EXPECTED_ANCHORS = (
     "quick-start", "use-cases", "showcase", "install",
-    "advanced", "validation", "community", "license",
+    "advanced", "validation", "license",
 )
 
 
