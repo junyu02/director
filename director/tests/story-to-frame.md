@@ -5,7 +5,7 @@ SPDX-License-Identifier: CC-BY-NC-4.0
 
 # 剧本到画面：显式调用行为验证
 
-这九条测试检查显式启用 `director` 后的文本行为。它们不测试自然语言能否自动选中 Skill，也不证明图像质量或创作提升。实际执行证据及完整响应保存在源码仓库的 `docs/behavior-check-v2.5.md`，不包含在 Skill 安装包内；其他功能的人工回归见 [Manual Regression Tests](manual-regression.md)。九条符合行为要求不代表静态检查或视觉验收通过。
+这九条测试检查显式启用 `director` 后的文本行为。它们不测试自然语言能否自动选中 Skill，也不证明图像质量或创作提升。其他功能的人工回归见 [Manual Regression Tests](manual-regression.md)。九条符合行为要求不代表静态检查或视觉验收通过。
 
 ## 执行方法与判定
 

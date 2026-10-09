@@ -1,6 +1,6 @@
 # DIRECTOR · Visual Methods and Historical Work
 
-These are the author's existing AIGC examples, not regenerated v2.4 results or evidence of improved strength control or interaction.
+These are the author's existing AIGC examples, not ver 1.0 results or evidence of improved strength control or interaction.
 
 [Back to README](../README_EN.md) · [Director strength rules](../director/references/director-routing.md)
 
@@ -26,7 +26,7 @@ Repair is not a new creative pass. Character identity, wardrobe, vehicle, and lo
 <a id="creative-grammar"></a>
 ## Creative Grammar: Executable Decisions, Not Filters
 
-v2.0.0 preserves the Four-Axis Visual Fingerprints for 38 directors and adds 16 style cards plus 8 cinematography cards. These cards alter light, exposure, camera, space, blocking, and visual center instead of appending a style label.
+DIRECTOR includes Four-Axis Visual Fingerprints for 38 directors, 16 style cards, and 8 cinematography cards. These cards alter light, exposure, camera, space, blocking, and visual center instead of appending a style label.
 
 - Style cards provide controlled directions such as austere realism, wet noir, quiet everyday life, or institutional pressure.
 - Cinematography cards provide witness positions such as outside a doorway, close but obstructed, distant negative space, or a procedural locked-off camera.
@@ -113,7 +113,7 @@ and spatial composition distinct, explicit, and non-interchangeable.
 Do not copy any specific film scene.
 ```
 
-> v2.4 respects subtle / clear / strong strength; unspecified strength defaults to clear. Locked action, camera, and composition are not reselected for differentiation. Images below retain their historical strong-mode labels.
+> DIRECTOR respects subtle / clear / strong strength; unspecified strength defaults to clear. Locked action, camera, and composition are not reselected for differentiation. Images below retain their historical strong-mode labels.
 
 ### Four directors, one fixed scene
 
@@ -128,7 +128,7 @@ The story fact remains “searching for a tape inside a video store during a bla
 
 ## What Would Different Directors See in the Same Story?
 
-This stress test locks the same story, characters, period, location, and evidence, changing only the director reference. v2.0.0 preserves those structural differences and forces every direction into four consecutive signatures—contrast, color and exposure, camera position, and composition—so models are less likely to collapse the result into one generic style sentence.
+This stress test locks the same story, characters, period, location, and evidence, changing only the director reference. DIRECTOR preserves those structural differences and forces every direction into four consecutive signatures—contrast, color and exposure, camera position, and composition—so models are less likely to collapse the result into one generic style sentence.
 
 The difference is not a filter on the same image. Each director makes a new decision about what the shot is actually watching.
 

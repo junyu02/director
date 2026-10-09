@@ -138,6 +138,6 @@ P03 实际有部分弯起的腿部及抓握进入下沿，与提示词“全在�
 
 </details>
 
-初始实验的关键帧和造型由共同任务预先固定。这是受约束的剧本到视觉转化实例，不是自主选帧或全文理解测试；两版真实文字输出与比较边界见[文字比较记录](titanic-comparison-v2.5.md)。
+初始实验的关键帧和造型由共同任务预先固定。这是受约束的剧本到视觉转化实例，不是自主选帧或全文理解测试。
 
-[返回首页](../README.md) · [剧本到画面工作流](../director/references/story-visual-development.md) · [本次验证](validation-v2.5.md)
+[返回首页](../README.md) · [剧本到画面工作流](../director/references/story-visual-development.md)

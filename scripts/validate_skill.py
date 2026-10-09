@@ -67,7 +67,7 @@ def main() -> int:
     story_path = REF / "story-visual-development.md"
     if not story_path.is_file():
         errors.append("Missing story visual development resource.")
-    for path in (REF / "story-source-ledger.md", SKILL / "tests" / "story-to-frame.md", SKILL / "tests" / "story-art-development.md", ROOT / "docs" / "titanic-story-to-frame.md", ROOT / "docs" / "last-photo-art-development.md", ROOT / "docs" / "behavior-check-art-development-v2.5.md", ROOT / "docs" / "validation-v2.5.md"):
+    for path in (REF / "story-source-ledger.md", SKILL / "tests" / "story-to-frame.md", SKILL / "tests" / "story-art-development.md", ROOT / "docs" / "titanic-story-to-frame.md", ROOT / "docs" / "last-photo-art-development.md"):
         if not path.is_file():
             errors.append(f"Missing Story to Frame resource: {path.relative_to(ROOT)}")
     # These are resource/contract checks; actual responses are reviewed separately.
@@ -80,8 +80,6 @@ def main() -> int:
         case_ids = re.findall(r"^## (S\d{2}) —", story_tests.read_text(encoding="utf-8"), re.MULTILINE)
         if case_ids != [f"S{number:02d}" for number in range(1, 10)]:
             errors.append("Story regression document must retain S01–S09 in order.")
-    if not (ROOT / "docs" / "behavior-check-v2.5.md").is_file():
-        errors.append("Missing v2.5 text behavior record.")
     require(REF / "medium-router.md", ("Primary Medium", "Secondary Influences (0–2)", "Confidence", "Medium Constraints", "Medium Avoid", "Conflict Notes", "never average", "Host Medium", "Secondary Construction Rule"), errors)
     require(REF / "dream-decode.md", ("Expression Mechanism is **optional**", "Expression Mechanism: Not required", "Abnormal Event", "Event Locus", "Subject–Event Coupling", "Emotional Function", "Transferable Mechanism", "Surface Implementation", "Non-transferable Residue", "Core Visual Rules", "five to eight", "Strong Transfer", "Conditional Transfer", "Do Not Transfer", "USER-LOCKED", "OPEN"), errors)
     require(REF / "prompt-compiler.md", ("Compiler Priority Gate", "USER-LOCKED", "OPEN", "User Explicit Reference Roles", "Primary Medium / Medium Constraints", "Expression Mechanism (optional)", "Active Core Rules (3–5)", "Transfer Scope", "Medium Drift Risk", "Mechanism Drift Risk", "Prompt Overload", "three to five Active Core Rules", "full five to eight Core Visual Rules"), errors)

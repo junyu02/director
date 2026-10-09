@@ -445,7 +445,7 @@ Use a verbose Decode Card with eight full Core Visual Rules and many archival no
 
 Use a new scene with dramatic light but no request for photoreal reinterpretation; include GPT Image runs. Expected: A stays paper illustration with medium-appropriate viewpoint/value/mark language; B stays stylized 3D with form/surface/stylized-light language. Neither becomes photographic, glossy generic CG, or generic concept art merely because the Skill's broader domain is cinematic.
 
-## v2.4 Creator Control and Handoff Regression
+## Creator Control and Handoff Regression
 
 These are behavior specifications, not executed-result claims. See the separate validation record for actual text runs. Image recognizability and usability require additional evaluation.
 

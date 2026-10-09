@@ -196,4 +196,4 @@ R01 是前序用户外部生成并回传的候选美术图。本轮以它保持�
 
 按你当前要讨论的问题提出请求即可。两种用途可以分开开发，也可以在一张画面中兼顾；不需要记住模式名或每次生成两套图。只要关系分析时，DIRECTOR仍只做分析。需要生成时，再沿用已确定的模型编译提示词。
 
-[《泰坦尼克号》剧本实战](titanic-story-to-frame.md) · [本轮行为检查](behavior-check-art-development-v2.5.md) · [返回首页](../README.md)
+[《泰坦尼克号》剧本实战](titanic-story-to-frame.md) · [返回首页](../README.md)

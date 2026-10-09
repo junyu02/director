@@ -10,7 +10,7 @@ Start with a story, screenplay excerpt, or references. Establish the scene, deve
 
 ![Two detectives sit apart in silence on a night bus after a failed interrogation](docs/images/hero-night-bus.webp)
 
-<sub>The author's existing AIGC work: distance, seat occlusion, and practical light express a failed investigation. Not regenerated as a v2.4 test result. [Original image](docs/images/hero-night-bus.png)</sub>
+<sub>The author's existing AIGC work: distance, seat occlusion, and practical light express a failed investigation. Not a ver 1.0 test result. [Original image](docs/images/hero-night-bus.png)</sub>
 
 A visual-creation Skill for ChatGPT / Codex. You get a copyable prompt, with brief visual decisions, a Decode Card, or continuity planning when needed. Image generation requires the features available in your environment; installing the Skill does not automatically invoke an API or select the underlying model.
 
@@ -115,7 +115,7 @@ Eye-level view from the doorway. Give me a model-neutral prompt using practical 
   </tr>
 </table>
 
-v2.4 honors **subtle / clear / strong**; unspecified strength defaults to clear. Subtle uses selected compatible traits. Strong changes only open decisions. Locked action, camera, composition, and sources are not reselected to manufacture difference.
+DIRECTOR honors **subtle / clear / strong**; unspecified strength defaults to clear. Subtle uses selected compatible traits. Strong changes only open decisions. Locked action, camera, composition, and sources are not reselected to manufacture difference.
 
 ```text
 Use $director:
@@ -137,7 +137,7 @@ New scene: an elderly watchmaker closes a pocket watch before dawn. Chest-up med
 Do not import the bus, detectives, or clothing. Decode, then give a model-neutral prompt.
 ```
 
-[Reference, five core rules, complete reuse card, and transfer prompt](docs/dream-decode-example.md). **This is a text worked example grounded in an actual reference. The transferred image has not been generated; it is not an image-level v2.4 comparison.**
+[Reference, five core rules, complete reuse card, and transfer prompt](docs/dream-decode-example.md). **This is a text worked example grounded in an actual reference. The transferred image has not been generated; it is not an image-level comparison.**
 
 Reuse the card in the same conversation; supply its full contents again in a new one. Reattach accessible images when identity or editing depends on them.
 
@@ -184,11 +184,9 @@ Supports GPT Image 2.5 with explicit GPT Image 2 compatibility, Midjourney V8.2,
 <a id="validation"></a>
 ## Validation Status
 
-DIRECTOR ver 1.0 retains script understanding, visual development, and single-frame selection. Earlier static checks, text behavior checks, and image feedback are historical records, not a fresh acceptance of this renamed edition.
+DIRECTOR ver 1.0 has not been independently validated. Showcase and case-study images were generated earlier, not as ver 1.0 test results, and a single case does not establish general improvement; Expected entries in manual regression are specifications, not execution records.
 
-**A worked example and general improvement are separate claims.** Historical images are not retests for this upgrade; Expected entries in manual regression are specifications, not execution records. See the validation record for the new example's generation, comparison, and check status.
-
-[Current validation record](docs/validation-v2.5.md) · [v2.4 validation history](docs/validation-v2.4.md) · [Manual regression and image comparison protocol](director/tests/manual-regression.md)
+[Manual regression and image comparison protocol](director/tests/manual-regression.md)
 
 The repository root contains tutorials and work; `director/` is the installable Skill. `scripts/` provides static checks and packaging. The ZIP excludes the showcase gallery.
 
